@@ -1,15 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: #EFEFBB;
-    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
-    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
-
+    background: #74c8dd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,24 +14,24 @@ body {
 }
 
 h1 {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 
 
 .makeup {
-    background-color: #eee;
+    background-color: rgb(119, 190, 143);
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(100, 100, 100, 0.5);
-    margin: 42px;
-    padding: 21px;
+    margin: 40px;
+    padding: 20px;
     text-align: center;
     
 }
 
 .makeup .img-container {
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 50%;
+    border-radius: 30%;
     width: 160px;
     height: 160px;
     text-align: center;
@@ -64,9 +59,10 @@ h1 {
 }
 
 h1{
-    font-size: 4rem;
-    color: #00A19D;
-    text-shadow: 2px 2px;
+    font-size: 10px;
+    color: #cc6e42;
+    text-shadow: 1px 1px;
+    font-weight: 100;
 }
 
 .zoom {
