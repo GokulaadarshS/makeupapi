@@ -1,6 +1,6 @@
 const getMakeup = async () => {
   try {
-    const url = `https://makeup-api.herokuapp.com/api/v1/products.json/`;
+//     const url = `file:///C:/Users/Gullu%20Sudha%20Tvlm/Downloads/PriyaMega.pdf`;
     const res = await fetch(url);
     const makeup = await res.json();
     createMakeUpCard(makeup);
