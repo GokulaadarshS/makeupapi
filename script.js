@@ -17,7 +17,7 @@ function createMakeUpCard(makeup) {
       return `
       <div class="zoom">
       <div class='makeup '>
-      <p > <img src="${file:///C:/Users/Gullu%20Sudha%20Tvlm/Downloads/PriyaMega.pdf}" alt="${user.name}" srcset="" class='img-container'></p>
+      <p > <img src="${user.img}" alt="${user.name}" srcset="" class='img-container'></p>
       <div class="info">
       <p class="type"><b>Brand </b>:  ${user.brand}</p>
       <p class="name"><b>Name </b>:  ${user.name}</p>
