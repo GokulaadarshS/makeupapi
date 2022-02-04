@@ -1,6 +1,6 @@
 const getMakeup = async () => {
   try {
-//     const url = `file:///C:/Users/Gullu%20Sudha%20Tvlm/Downloads/PriyaMega.pdf`;
+//     const url = `https://makeup-api.herokuapp.com/api/v1/products.json/`;
     const res = await fetch(url);
     const makeup = await res.json();
     createMakeUpCard(makeup);
@@ -17,7 +17,7 @@ function createMakeUpCard(makeup) {
       return `
       <div class="zoom">
       <div class='makeup '>
-      <p > <img src="${user.image_link}" alt="${user.name}" srcset="" class='img-container'></p>
+      <p > <img src="${file:///C:/Users/Gullu%20Sudha%20Tvlm/Downloads/PriyaMega.pdf}" alt="${user.name}" srcset="" class='img-container'></p>
       <div class="info">
       <p class="type"><b>Brand </b>:  ${user.brand}</p>
       <p class="name"><b>Name </b>:  ${user.name}</p>
